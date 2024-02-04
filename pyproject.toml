@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "learn-fastapi"
+version = "0.1.0"
+description = ""
+authors = ["Anton K <toxameosh@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.109.1"
+uvicorn = {extras = ["standard"], version = "^0.27.0.post1"}
+pre-commit = "^3.6.0"
+ruff = "^0.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
