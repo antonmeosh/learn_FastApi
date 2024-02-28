@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RuffConfigService">
+    <option name="globalRuffLspExecutablePath" value="C:\Users\anton\AppData\Local\Programs\Python\Python310\Scripts\ruff.exe" />
+    <option name="projectRuffExecutablePath" value="C:\Users\anton\AppData\Local\pypoetry\Cache\virtualenvs\learn-fastapi-OuW23U8I-py3.10\Scripts\ruff.exe" />
+  </component>
+</project>
