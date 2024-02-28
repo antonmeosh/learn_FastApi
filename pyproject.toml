@@ -11,9 +11,15 @@ fastapi = "^0.109.1"
 uvicorn = {extras = ["standard"], version = "^0.27.0.post1"}
 pre-commit = "^3.6.0"
 ruff = "^0.2.0"
-black = "^24.1.1"
+sqlalchemy = "^2.0.27"
+alembic = "^1.13.1"
+asyncpg = "^0.29.0"
+pydantic-settings = "^2.2.1"
 
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+line-length=99
